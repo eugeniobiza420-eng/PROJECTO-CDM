@@ -1,0 +1,248 @@
+
+body{
+    font: normal 12pt sans-serif;
+}
+
+footer{
+
+            background: red;
+            color: white;
+            font: normal 10pt sans-serif;
+            padding: 5px;
+        }
+        header{
+            background: red;
+            color: white;
+            font: normal 10pt sans-serif;
+            padding: 5px;
+        }
+        div#hist{
+            background: rgb(228, 228, 15);
+            color: white;
+            height: 150px;
+            text-align: center;
+            font: normal 30pt sans-serif;
+            line-height: 150px;
+        }
+
+         h1{
+            color: red;
+            font: normal 25pt sans-serif;
+        }
+        h3{
+            color: red;
+             font: normal 15pt sans-serif;
+        }
+
+        article{
+             font: normal 12pt sans-serif;
+        }
+
+         /* Linha do tempo em css*/ 
+        .timeline{
+            position: relative;
+            margin-left: 30px;
+        }
+        
+        .timeline::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 4px;
+            height: 100%;
+            background:rgb(122, 121, 121);
+        }
+
+        .timeline-item{
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 40px;
+        }
+
+        .timeline-item::before{
+            content: "";
+            position: absolute;
+            left: -6px;
+            top: 5px;
+            width: 15px;
+            height: 15px;
+            background:red;
+            border-radius: 50%;
+            box-shadow: 0px 4px 4px rgb(61, 58, 58);
+        }
+
+        .year{
+            font-size: 22px;
+            font-weight: bold;
+            color: red;
+
+        }
+
+        .content{
+            background: #e6e6ef;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 5px;
+            font: normal 13pt sans-serif;
+
+        }
+
+         /* Links do rodapé*/
+         a.info{
+            text-decoration: none;
+            color: white;
+        }
+
+
+        /* Icones,fb,ig e in*/
+        img.foto-icone{
+            width: 35px;
+            margin: 8px;
+        }
+
+        /* Sobre a página ABINBEV*/
+        .abinbev{
+        text-align: center;
+        padding: 40px;
+        margin: 15px;
+       }
+
+       /* Sobre a página política de privacidade*/
+       .priv{
+            background: rgb(228, 228, 15);
+            color: white;
+            height: 150px;
+            text-align: center;
+            font: normal 30pt sans-serif;
+            line-height: 150px;
+            margin-top: -40px;
+        }
+
+        #artigo h2{
+            font: normal 15pt sans-serif;
+            color: rgb(238, 54, 54);
+        }
+
+        #artigo p{
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+        /* Sobre a página termos de uso*/
+
+        .use{
+             background: rgb(228, 228, 15);
+            color: white;
+            height: 150px;
+            text-align: center;
+            font: normal 30pt sans-serif;
+            line-height: 150px;
+            margin-top: -40px;
+        }
+        
+        .sec-1 h2{
+            font: normal 15pt sans-serif;
+            color: rgb(238, 54, 54);
+            margin-top: 40px;
+        }
+        .sec-1 p{
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+
+        /* Sobre a página POLÍTICA DE COOKIES*/
+        .cook{
+            background: rgb(228, 228, 15);
+            color: white;
+            height: 150px;
+            text-align: center;
+            font: normal 30pt sans-serif;
+            line-height: 150px;
+            margin-top: -40px;
+        }
+
+        .sec-2 h2{
+            font: normal 15pt sans-serif;
+            color: rgb(238, 54, 54);
+            margin-top: 40px;
+        }
+
+        .sec-2 p{
+             margin-bottom: 40px;
+             margin-top: 40px;
+        }
+
+
+        /* MENU*/
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .cabecalho{
+           background: red;
+           width: 100%;
+           height: 170px;
+        }
+
+        .menu ul {
+            list-style: none;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        .menu ul li a {
+            display: block;
+            padding: 20px 25px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul li ul.dropdown li {
+            display: block;
+        }
+
+        ul li ul.dropdown {
+            width:100% ;
+            background:red;
+            position: absolute;
+            z-index: 999;
+            display: none;
+        }
+
+        ul li a:hover {
+            color: yellow;
+        }
+
+        ul li:hover ul.dropdown {
+            display: block;
+        }
+
+         div.texto{
+        margin: 30px;
+        padding: 20px;
+       }
+
+       div.texto p{
+        padding: 10px;
+       }
+
+        .rodape p {
+        padding: 10px;
+       }
+
+        .info {
+        margin: 15px;
+       }
+
+       article.historia p {
+          padding: 10px;
+          margin: 5px;
+       }
+
